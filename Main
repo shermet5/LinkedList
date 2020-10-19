@@ -1,1 +1,15 @@
+package LinckedList;
 
+public class Main {
+    public static void main(String[] args){
+        LinckedList list = new LinckedList();
+        list.add("lolo");
+        list.add("soso");
+        list.add("gogo");
+        list.add("roro");
+
+
+        System.out.println(list.remove(3));
+        System.out.println(list.remove(3));
+    }
+}
