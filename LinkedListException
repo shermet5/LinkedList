@@ -1,0 +1,13 @@
+package LinckedList;
+
+public class LinkedListException extends ArrayIndexOutOfBoundsException{
+    public LinkedListException(int index){
+        super("Array index is doesent exist:" + index);
+    }
+    public LinkedListException(String message){
+        super(message);
+    }
+    public LinkedListException(){
+        super();
+    }
+}
