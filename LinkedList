@@ -91,9 +91,11 @@ public class LinckedList implements List {
     public void add(int index, Object element) {
 
     }
-
     @Override
     public Object remove(int index) {
+        if(index >= size){
+            throw  new LinkedListException(index);
+        }
         Node removed;
         Node elem = head;
         if(current == null)return null;
@@ -181,4 +183,5 @@ public class LinckedList implements List {
         }
     }
 }
+
 
