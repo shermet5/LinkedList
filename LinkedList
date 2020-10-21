@@ -176,6 +176,7 @@ public class LinckedList implements List {
             this.next = next;
             this.prev = prev;
         }
+        @MyOwnAnnotation
         public Node(Node node){
             this.value = node.value;
             this.next = node.next;
@@ -183,5 +184,4 @@ public class LinckedList implements List {
         }
     }
 }
-
 
