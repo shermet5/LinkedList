@@ -8,8 +8,10 @@ public class Main {
         list.add("gogo");
         list.add("roro");
 
-
-        System.out.println(list.remove(3));
-        System.out.println(list.remove(3));
+//        System.out.println(list.remove(1));
+//        System.out.println(list.remove(3));
+        System.out.println(list.get(0));
+        System.out.println(list.get(2));
     }
 }
+
